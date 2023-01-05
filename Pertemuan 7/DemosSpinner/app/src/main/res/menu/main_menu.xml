@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Breakfast"
+        android:id="@+id/mc_breakfast"
+        android:icon="@drawable/ic_breakfast"
+        app:showAsAction="always"/>
+
+    <item android:title="Lunch"
+        android:id="@+id/mc_lunch"
+        android:icon="@drawable/ic_lunch"
+        app:showAsAction="always"/>
+    <item android:title="Dinner"
+        android:id="@+id/mc_dinner"
+        android:icon="@drawable/ic_dinner"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Meeting"
+        android:id="@+id/mc_meeting"
+        android:icon="@drawable/ic_meeting"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Party"
+        android:id="@+id/mc_party"
+        android:icon="@drawable/ic_party"
+        app:showAsAction="ifRoom"/>
+</menu>

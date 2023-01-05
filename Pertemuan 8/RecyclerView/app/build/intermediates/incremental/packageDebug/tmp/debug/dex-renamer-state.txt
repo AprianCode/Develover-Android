@@ -1,0 +1,4 @@
+#Mon Nov 21 11:29:50 SGT 2022
+base.0=D\:\\KULIAH\\Semester 5\\Pemrograman Berbasis Objek\\RecyclerView\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

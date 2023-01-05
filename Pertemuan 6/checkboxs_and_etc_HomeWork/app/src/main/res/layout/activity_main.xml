@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/ck_CS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Chocolate Syrup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ck_S"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Springkles"
+        app:layout_constraintStart_toStartOf="@+id/ck_CS"
+        app:layout_constraintTop_toBottomOf="@+id/ck_CS" />
+
+    <CheckBox
+        android:id="@+id/ck_CN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Crushed nuts"
+        app:layout_constraintStart_toStartOf="@+id/ck_S"
+        app:layout_constraintTop_toBottomOf="@+id/ck_S" />
+
+    <CheckBox
+        android:id="@+id/ck_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Cherries"
+        app:layout_constraintStart_toStartOf="@+id/ck_CN"
+        app:layout_constraintTop_toBottomOf="@+id/ck_CN" />
+
+    <CheckBox
+        android:id="@+id/ck_OCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Orio Cookie Crumbles"
+        app:layout_constraintStart_toStartOf="@+id/ck_C"
+        app:layout_constraintTop_toBottomOf="@+id/ck_C" />
+
+    <Button
+        android:id="@+id/btn_ShowToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Show Toast"
+        android:onClick="showTOAS"
+        app:layout_constraintStart_toStartOf="@+id/ck_OCC"
+        app:layout_constraintTop_toBottomOf="@+id/ck_OCC" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
